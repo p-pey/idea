@@ -24,3 +24,4 @@ function debounce<Args extends unknown[]>(fn: (...args: Args) => void, delay: nu
 
   return debounced;
 }
+export default debounce;

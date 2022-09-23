@@ -24,3 +24,4 @@ function throttle<Args extends unknown[]>(fn: (...args: Args) => void, cooldown:
 
   return throttled;
 }
+export default throttle;
